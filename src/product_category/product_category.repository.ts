@@ -18,13 +18,13 @@ export class ProductCategoryRepository {
     });
   }
 
-  async create(data: ProductCategory) {
+  async create(data: Partial<ProductCategoryInterface>) {
     const productCategory = this.repository.create(data);
     return await this.repository.save(productCategory);
   }
 
-  async update(data: ProductCategoryInterface) {
-    return await this.repository.save(data);
+  async update(id: number, data: Partial<ProductCategoryInterface>) {
+    return await this.repository.update(id, data);
   }
 
   async delete(id: number) {
