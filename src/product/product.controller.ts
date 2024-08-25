@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { autoBind } from "../../utils/bind";
+import { autoBind } from "../utils/bind";
 import { ProductService } from "./product.service";
 import { ProductInterface } from "./product.interface";
 

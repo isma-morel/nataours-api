@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { autoBind } from "../../utils/bind";
+import { autoBind } from "../utils/bind";
 import { ColourService } from "./colour.service";
 import { ColourInterface } from "./colour.interface";
 

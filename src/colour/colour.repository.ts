@@ -1,4 +1,4 @@
-import { AppDataSource } from "../../config/config.database";
+import { AppDataSource } from "../config/config.database";
 import { Repository } from "typeorm";
 import { Colour } from "./colour.model";
 import { ColourInterface } from "./colour.interface";

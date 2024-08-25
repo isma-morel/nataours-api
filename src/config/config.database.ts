@@ -1,7 +1,7 @@
 import { DataSource } from "typeorm";
 import { config } from "./config.enviroment";
-import { Product } from "../entities/products/product.model";
-import { ProductCategory } from "../entities/product_category/product_category.model";
+import { Product } from "../product/product.model";
+import { ProductCategory } from "../product_category/product_category.model";
 
 const {
   db: { db_name, db_port, db_user, db_pw },
