@@ -1,7 +1,7 @@
 import { ProductCategory } from "./product_category.model";
-import { AppDataSource } from "../config/config.database";
 import { ProductCategoryInterface } from "./product_category.interface";
 import { Repository } from "typeorm";
+import { AppDataSource } from "../../config/config.database";
 
 export class ProductCategoryRepository {
   private repository: Repository<ProductCategory>;
